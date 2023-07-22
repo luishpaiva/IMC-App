@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.aboutUsActivity">
+
+    <TextView
+        android:id="@+id/aboutUsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/sobre_o_aplicativo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pucprTextView"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:text="@string/pontif_cia_universidade_cat_lica_do_paran"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsTextView"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="128dp"
+        android:onClick="voltarButtonOnClick"
+        android:text="@string/voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/disciplinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/disciplina_desenvolvimento_para_dispositivos_m_veis_11100010548_20231_01"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pucprTextView" />
+
+    <TextView
+        android:id="@+id/professorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/professor_tutor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disciplinaTextView" />
+
+    <TextView
+        android:id="@+id/felipeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/felipe_gabriel_de_mello_elias"
+        app:layout_constraintStart_toEndOf="@+id/professorTextView"
+        app:layout_constraintTop_toBottomOf="@+id/disciplinaTextView" />
+
+    <TextView
+        android:id="@+id/alunosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/alunos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/professorTextView" />
+
+    <TextView
+        android:id="@+id/luisTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/lu_s_henrique_paiva"
+        app:layout_constraintStart_toEndOf="@+id/alunosTextView"
+        app:layout_constraintTop_toBottomOf="@+id/felipeTextView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/vanessaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/vanessa_scoz_braga"
+        app:layout_constraintStart_toEndOf="@+id/luisTextView"
+        app:layout_constraintTop_toBottomOf="@+id/felipeTextView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/pucImageView"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsTextView"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

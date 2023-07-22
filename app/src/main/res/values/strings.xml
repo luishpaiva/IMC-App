@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IMCApp</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="informe_nome">Informe o seu nome</string>
+    <string name="informe_altura">Informe a sua altura (cm)</string>
+    <string name="informe_peso">Informe o seu peso (kg)</string>
+    <string name="calcular">Calcular</string>
+    <string name="imc_zero">
+        Altura ou peso não é maior que zero!
+        Não foi possível calcular o IMC.
+    </string>
+    <string name="voltar">Voltar</string>
+    <string name="resultado">Resultado:</string>
+    <string name="o_seu_imc_de">O seu IMC é de</string>
+    <string name="de_acordo">De acordo…</string>
+    <string name="sobre_nos">Sobre nós</string>
+    <string name="sobre_o_aplicativo">Sobre o aplicativo</string>
+    <string name="pontif_cia_universidade_cat_lica_do_paran">
+        Pontifícia Universidade Católica do Paraná
+    </string>
+    <string name="disciplina_desenvolvimento_para_dispositivos_m_veis_11100010548_20231_01">
+        Disciplina: Desenvolvimento para dispositivos móveis (11100010548_20231_01)
+    </string>
+    <string name="professor_tutor">Professor-Tutor:</string>
+    <string name="felipe_gabriel_de_mello_elias">Felipe Gabriel De Mello Elias</string>
+    <string name="alunos">Alunos:</string>
+    <string name="lu_s_henrique_paiva">Luís Henrique Paiva</string>
+    <string name="vanessa_scoz_braga">Vanessa Scoz Braga</string>
+</resources>
